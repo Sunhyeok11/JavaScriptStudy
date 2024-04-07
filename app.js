@@ -1,9 +1,6 @@
-const player = {
-  name: "hong",
-  points: 10,
-  fat:true,
-};
+const title = document.getElementById("title")
 
-console.log(player);
-player.points = player.points + 15;
-console.log(player.points);
+title.innerText = "Got you!"
+
+console.log("title.id")
+console.log("title.className")
